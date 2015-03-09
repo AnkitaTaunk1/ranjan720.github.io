@@ -1,0 +1,120 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+	
+}
+
+
+/* Hyperlink Styles: */
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+
+
+.line{
+	/* The dividing line: */
+	height:1px;
+	background-color:white;
+	border-bottom:1px solid #416371;
+	margin:1em 0;
+	overflow:hidden;
+}
+
+article .line{
+	/* The dividing line inside of the article is darker: */
+	background-color:azure;
+	
+	margin:1.5em 0;
+}
+
+
+nav{
+	background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+	padding:0 2px;
+	position:fixed;;
+	right:0;
+	left:1;
+	top:0.01em;
+   
+    z-index: 9999;
+    background-color: #00a087;
+	
+	border:1px solid #FCFCFC;
+
+	-moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+	box-shadow:0 1px 1px #333333;
+}
+
+
+/* The navigation styling: */
+
+nav ul li{
+	display:inline;
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:black;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px azure;
+	text-transform:uppercase;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:yellow;
+}
+
+nav, article, nav ul li a{
+	/* Applying CSS3 rounded corners: */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:5px;
+}
+
+/* Article styles: */
+
+#page1,#page2,#page3{
+	width:98%;
+	height:90%;
+	margin:0 auto;
+	position:relative;
+}
+
+article{
+	background-color:white;
+	margin:3em 0;
+	padding:2px;
+	font-style:normal;
+	font-color:blue;
+}
+
+
+
